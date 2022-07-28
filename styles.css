@@ -107,7 +107,7 @@ section {
   position: relative;
   min-height: 100vh;
   min-width: 100vw;
-  background: url(banner1.jpg);
+  background: url(docs/banner1.jpg);
   background-repeat: no-repeat;
   background-size: 50% 100%;
   background-position: right;
