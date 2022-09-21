@@ -41,12 +41,15 @@ body {
 }
 
 
+
+
   
   
 
   .display {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
   }
   
   .display .box{
@@ -70,8 +73,12 @@ body {
   }
   
   .display .box img {
-    min-width: 200px;
-    max-width: 300px;
+    width: 90%;
+  }
+
+  .display .box #quiz-img {
+    width: 50%;
+    height: 50%;
   }
   
 .display .box hr {
@@ -93,3 +100,19 @@ body {
     font-size: 20px;
     font-weight: 600;
   }
+
+  /* RESPONSIVE START */
+
+@media (max-width: 991px) {
+  .display {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .display {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
