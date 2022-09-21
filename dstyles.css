@@ -70,11 +70,12 @@ body {
   }
   
   .display .box img {
-    max-width: 200px;
+    min-width: 200px;
+    max-width: 300px;
   }
   
-.display .box p {
-  
+.display .box hr {
+    margin: 1.5rem 0;
   }
 
   .display .box i {
