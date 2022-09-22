@@ -5,11 +5,22 @@
         <meta charset="UTF-8"/>
         <title>Robert Hassenmayer Projects</title>
         <link rel="stylesheet" href="./dstyles.css">
-        <script src="https://kit.fontawesome.com/d8a298c102.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/d8a298c102.js" crossorigin="anonymous" defer></script>
+        <script type="text/javascript" src="script.js" defer></script>
     </head>
     <body class="display-body">
-        
-        <section class="display">
+        <header>
+            <a href="#" class="logo">Projects</a>
+        <div class="toggle" onclick="toggleMenu();"><i class="fa-solid fa-bars"></i></div>
+        <ul class="menu">
+            <li><a href="#python" onclick="toggleMenu();">Python</a></li>
+            <li><a href="#web" onclick="toggleMenu();">Web</a></li>
+            <li><a href="#bash" onclick="toggleMenu();">Bash</a></li>
+            
+        </ul>
+        </header>
+        <p>click a card to enlarge image</p>
+        <section class="display" id="python">
             <div class="box">
                 <h2>Python</h2>
                 <hr>
@@ -70,6 +81,9 @@
                     A timer for efficient studying
                 </p>
             </div>
+            
+        </section>
+        <section class="display" id="web">
             <div class="box">
                 <h2>Html, Css, Javascript</h2>
                 <hr>
@@ -80,6 +94,8 @@
                     Web browser based text editor
                 </p>
             </div>
+        </section>
+        <section class="display" id="bash">
             <div class="box">
                 <h2>Bash</h2>
                 <hr>
