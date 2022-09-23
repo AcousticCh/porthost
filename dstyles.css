@@ -103,11 +103,17 @@ header.sticky ul li a {
   color: #111;
 }
 
+#title-p, #title-w, #title-b {
+  display: block;
+  color: #fff;
+  padding-top: 6rem;
+  text-align: center;
+}
+
   .display {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-items: center;
-    padding-top: 4rem;
     
   }
   
