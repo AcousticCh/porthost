@@ -43,6 +43,10 @@ body {
 
 
 header {
+  position: fixed;
+  width: 100vw;
+  padding: 20px 50px;
+  z-index: 1000;
   background: var(--bg-black);
   color: var(--text-color);
   display: flex;
@@ -103,6 +107,8 @@ header.sticky ul li a {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     justify-items: center;
+    padding-top: 4rem;
+    
   }
   
   .display .box{
@@ -224,7 +230,6 @@ header.sticky ul li a {
     .display {
       display: grid;
       grid-template-columns: 50% 50%;
-      margin-top: 3rem;
     }
 
 @media (max-width: 600px) {
