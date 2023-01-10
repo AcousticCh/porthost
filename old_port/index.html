@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <title>Robert Hassenmayer</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/d8a298c102.js" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Developer</a>
+        <div class="toggle" onclick="toggleMenu();"><i class="fa-solid fa-bars"></i></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <!--
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            -->
+        </ul>
+    </header>
+    <div id="banner-bg">
+        <section class="banner" id="home">
+            <div class="text-box">
+                <h2 id="banner-intro">Hello, I am</h2>
+                <h2 id="banner-name">Robert Hassenmayer</h2>
+                <h3>I'm a Python and Web Developer.</h3>
+                <a href="#about" class="button">About Me</a>
+            </div>
+        </section>
+    </div>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="content-box w50">
+                <h3>Programming & Development</h3>
+                <p>I'm Robert, a motivated Web and Python Developer.
+                    I create a mix of <strong>web applications</strong>,
+                     <strong>automation tools</strong> and <strong>video games</strong>
+                     using <strong>Linux</strong> well I take the Linux Foundation <strong>LFS201</strong> Linux System Administrator course!
+                     <br/><br/>
+                     Here you can find examples of my work over 
+                     the past 2 years, with descriptions as well as links
+                     to anything currently hosted online. Along with different services of mine
+                     and a way to contact me at the bottom of this page.
+                    </p>
+            </div>
+            <div class="w50">
+                <img src="docs/about_img.jpg" class="img"/>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Development</h2>
+            <p>The different styles of Development I use to <strong>create</strong></p>
+        </div>
+        <div class="content">
+            <div class="services-box">
+                <i class="fa-solid fa-code-branch fa-5x"></i>
+                <h2>Python Applications</h2>
+                <p>Python can do just about everything you can think of,
+                    artificial intelligence, automate file work,
+                    create a desktop application, a web application,
+                     control a circuit, build a video game.
+                </p>
+                <a class="button-small" href="./display.html">See Projects</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-wifi fa-5x"></i>
+                <h2>Web Development</h2>
+                <p>Web Development is amazing, writing code that 
+                    any one of 7.96 billion people can use as a tool to improve
+                     their productivity or day fills me with passion.
+                    </p>
+                     <a class="button-small" href="./display.html">See Projects</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-linux fa-5x"></i>
+                <h2>Bash Automation</h2>
+                <p>Bash is my go to scripting language for automation tools,
+                    I use the bash shell of my linux systems daily to do everything
+                    from programming to checking and maintaining my web server.
+                </p>
+                <a class="button-small" href="./display.html">See Projects</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-car-battery fa-5x"></i>
+                <h2>Robotics</h2>
+                <p>Taking my program away from the reliance of a full computer system
+                    with batteries and microchips to build physical circuits as in
+                     motor controllers, data loggers, tools and robots.
+                </p>
+                <a class="button-small" href="./display.html">See Projects</a>
+            </div>
+        </div>
+    </section>
+<!--
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Noteable Projects</h2>
+            <p>In this section you will find my recent and noteable projects <strong>catagorized</strong> by the
+                 <strong>language(s)</strong> they were written in</p>
+        </div>
+        <div class="content">
+            <div class="work-box">
+                <img src="product1.jpg"/>
+            </div>
+            <div class="work-box">
+                <img src="product2.jpg"/>
+            </div>
+            <div class="work-box">
+                <img src="product3.jpg"/>
+            </div>
+            <div class="work-box">
+                <img src="product4.jpg"/>
+            </div>
+        </div>
+        <div class="heading">
+            <a class="button">View More</a>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>Feel free to contact me for any work related situations from here</p>
+        </div>
+        <div class="content">
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <div class="contact-info-box">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>2930 State Route 49,<br/>Blossvale, NY<br/>13308</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>973-262-2841</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>hassenr@proton.me</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-box">
+                <form action="3">
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send"/>
+                </form>
+            </div>
+        </div>
+    </section>
+-->
+    <div class="copyright">
+        <!--  MAKE A LINK HERE FOR LICENSE -->
+        <p>Copyright 2022 @ Robert Hassenmayer</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+env/*
+portfolio_proj/portfolio_proj/setting.py
+.env
+portfolio_proj/db.sqlite3
