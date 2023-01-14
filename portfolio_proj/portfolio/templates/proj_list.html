@@ -95,15 +95,19 @@
         <h2 id="title-b">Bash</h2>
         <hr>
         <section class="display" id="bash">
+        {% for i in projects %}
+        {% if "bash" in i.libraries %}
             <div class="box">
                 
-                <img src="{% static 'imgs/mkcmd.png' %}">
+                <img src="{{ i.image.url }}">
                 <hr>
                 <h2>mkcmd Command</h2>
                 <p>
                     This Bash command automates the process of turning a bash or python script into a bash command
                 </p>
             </div>
+        {% endif %}
+        {% endfor %}
             <div class="box">
                 
                 <img src="{% static 'imgs/search.png' %}">

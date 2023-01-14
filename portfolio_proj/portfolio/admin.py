@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import ProjModel, LibModel
 
-# Register your models here.
+admin.site.register(ProjModel)
+admin.site.register(LibModel)
+
