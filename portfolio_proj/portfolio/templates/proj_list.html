@@ -32,6 +32,9 @@
                 <p>
                     {{ i.description }}
                 </p>
+                <p class="library-tags">
+                {{ i.libraries.all|join:", " }}
+                </p>
             </div>
         {% else %}
             <div class="box">
@@ -40,6 +43,9 @@
                 <h2>{{ i.title }}</h2>
                 <p>
                     {{ i.description }}
+                </p>
+                <p class="library-tags">
+                    {{ i.libraries.all|join:", " }}
                 </p>
             </div>
         {% endif %}

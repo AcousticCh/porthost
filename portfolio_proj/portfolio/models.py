@@ -5,7 +5,7 @@ class LibModel(models.Model):
     slug = models.SlugField(null=True)
 
     def __str__(self):
-        return f"library: {self.title}"
+        return f"{self.title}"
 
 
 class ProjModel(models.Model):

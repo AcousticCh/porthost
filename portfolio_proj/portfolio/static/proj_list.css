@@ -117,7 +117,8 @@ header.sticky ul li a {
     
   }
   
-  .display .box{
+  .display .box {
+    position: relative;
     padding: 40px 20px;
     background: #222;
     color: var(--text-color);
@@ -126,7 +127,15 @@ header.sticky ul li a {
     text-align: center;
     transition: 0.5s;
   }
-  
+
+  .display .box .library-tags {
+    display: inline;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.2rem;
+    opacity: 0.7;
+  }
+
   .display .box:hover {
     background: var(--accent-color);
     color: #111;
